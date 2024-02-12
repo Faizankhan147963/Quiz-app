@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.questionBox {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    max-width: 650px;
+}
+
+.choice {
+    background-color: green;
+    margin: 14px;
+    padding: 10px;
+    font-size: 18px;
+    width: 700px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .1s;
+}
+
+.choice:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.nextButton {
+    margin-left: 270px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .1s;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: beige;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nextButton:hover {
+    background-color: cornsilk;
+    color: black;
+}
+
+.choice.select {
+    background-color: blueviolet;
+    color: white;
+}
+
+.scoreBoard {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btnplay {
+    background-color: green;
+    padding: 10px;
+    width: 200px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.alertBopx {
+    position: absolute;
+    width: 100%;
+    color: green;
+    line-height: 40px;
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    display: none;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
